@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+  }
+  
+  header {
+    background-color: #0066cc; /* Azul para el encabezado */
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  header .logo {
+    width: 100px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .categories ul {
+    list-style: none;
+  }
+  
+  .categories li {
+    background-color: #cce5ff; /* Celeste */
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .recommendations {
+    margin-top: 20px;
+  }
+  
+  .product-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
